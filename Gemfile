@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby '2.2.3'
 
-gem 'fixer'
+gem 'fixer', '>= 0.5.0'
 gem 'newrelic_rpm'
 gem 'pry'
 gem 'rake'
