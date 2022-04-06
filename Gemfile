@@ -11,7 +11,7 @@ gem 'sinatra-jsonp'
 gem 'sinatra-cross_origin'
 gem 'unicorn'
 gem 'virtus'
-gem 'yajl-ruby'
+gem 'yajl-ruby', '>= 1.4.2'
 
 group :development do
   gem 'minitest'
