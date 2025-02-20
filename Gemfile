@@ -2,14 +2,14 @@ source 'http://rubygems.org'
 
 ruby '2.2.3'
 
-gem 'fixer'
+gem 'fixer', '>= 0.6.0'
 gem 'newrelic_rpm'
 gem 'pry'
 gem 'rake'
 gem 'sequel_pg'
 gem 'sinatra-jsonp'
 gem 'sinatra-cross_origin'
-gem 'unicorn'
+gem 'unicorn', '>= 5.1.0'
 gem 'virtus'
 gem 'yajl-ruby'
 
