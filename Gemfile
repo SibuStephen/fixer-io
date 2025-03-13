@@ -9,7 +9,7 @@ gem 'rake'
 gem 'sequel_pg'
 gem 'sinatra-jsonp'
 gem 'sinatra-cross_origin'
-gem 'unicorn'
+gem 'unicorn', '>= 5.1.0'
 gem 'virtus'
 gem 'yajl-ruby'
 
